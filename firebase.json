@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "/Users/mowgli/Projects/JSPets/Quiz_Translate_WebApp",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
